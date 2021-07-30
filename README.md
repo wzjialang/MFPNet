@@ -17,18 +17,18 @@ The available datasets can be downloaded from the table below:
 	    <th>Download</th>
 	</tr>
     <tr>
-	    <td>Season-varying Dataset</td>
+	    <td>Season-varying Dataset [<a href="#Ref-1">1</a>]</td>
         <td>[<a href="https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9" target="_blank">Official</a>] </td>
 	</tr>
-	    <td>LEVIR-CD Dataset</td>
+	    <td>LEVIR-CD Dataset [<a href="#Ref-2">2</a>]</td>
         <td>[<a href="https://justchenhao.github.io/LEVIR/" target="_blank">Official</a>]</td>
     </tr>
 	</tr>
-	    <td>Google Dataset</td>
+	    <td>Google Dataset [<a href="#Ref-3">3</a>]</td>
         <td>[<a href="https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images/tree/master/dataset" target="_blank">Official</a>]</td>
     </tr>
 	</tr>
-	    <td>Zhange Dataset</td>
+	    <td>Zhange Dataset [<a href="#Ref-4">4</a>]</td>
         <td>[<a href="https://github.com/daifeng2016/Change-Detection-Dataset-for-High-Resolution-Satellite-Imagery" target="_blank">Official</a>]</td>
     </tr>
 </table> 
@@ -41,11 +41,10 @@ The available datasets can be downloaded from the table below:
 - OpenCV-Python 3.4.2
 
 ## Reference
-<span id="Ref-1">[1] Lebedev, M.; Vizilter, Y.V.; Vygolov, O.; Knyaz, V.; Rubis, A.Y. Change Detection in Remote Sensing Images Using Conditional
-Adversarial Networks. Int. Archives Photogram. Remote Sens. Spatial Inf. Sci. 2018, 42, 565–571.</span>
-<span id="Ref-2">[2] Chen, H.; Shi, Z. A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection.
-Remote Sens. 2020, 12, 1662. </span>
-<span id="Ref-3">[3] Peng, D.; Bruzzone, L.; Zhang, Y.; Guan, H.; Ding, H.; Huang, X. SemiCDNet: A Semisupervised Convolutional Neural
-Network for Change Detection in High Resolution Remote-Sensing Images. IEEE Trans. Geosci. Remote Sens. 2020, pp. 1–16. </span>
-<span id="Ref-4">[4] Zhang, C.; Yue, P.; Tapete, D.; Jiang, L.; Shangguan, B.; Huang, L.; Liu, G. A deeply supervised image fusion network for change
-detection in high resolution bi-temporal remote sensing images. ISPRS-J. Photogramm. Remote Sens. 2020, 166, 183–200. </span>
+<span id="Ref-1">[1] Lebedev, M.; Vizilter, Y.V.; Vygolov, O.; Knyaz, V.; Rubis, A.Y. Change Detection in Remote Sensing Images Using Conditional Adversarial Networks. Int. Archives Photogram. Remote Sens. Spatial Inf. Sci. 2018, 42, 565–571.</span>
+
+<span id="Ref-2">[2] Chen, H.; Shi, Z. A Spatial-Temporal Attention-Based Method and a New Dataset for Remote Sensing Image Change Detection. Remote Sens. 2020, 12, 1662. </span>
+
+<span id="Ref-3">[3] Peng, D.; Bruzzone, L.; Zhang, Y.; Guan, H.; Ding, H.; Huang, X. SemiCDNet: A Semisupervised Convolutional Neural Network for Change Detection in High Resolution Remote-Sensing Images. IEEE Trans. Geosci. Remote Sens. 2020, pp. 1–16. </span>
+
+<span id="Ref-4">[4] Zhang, C.; Yue, P.; Tapete, D.; Jiang, L.; Shangguan, B.; Huang, L.; Liu, G. A deeply supervised image fusion network for change detection in high resolution bi-temporal remote sensing images. ISPRS-J. Photogramm. Remote Sens. 2020, 166, 183–200. </span>
