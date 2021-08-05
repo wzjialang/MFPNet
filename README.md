@@ -1,7 +1,7 @@
 # Remote Sensing Change Detection Based on Multidirectional Adaptive Feature Fusion and Perceptual Similarity
 by Jialang Xu (e-mail: 504006937@qq.com), Chunbo Luo, Xinyue Chen, Shicai Wei, Yang Luo
 
-PyTorch implementation for "Remote Sensing Change Detection Based on Multidirectional Adaptive Feature Fusion and Perceptual Similarity"
+PyTorch implementation for "[Remote Sensing Change Detection Based on Multidirectional Adaptive Feature Fusion and Perceptual Similarity](https://www.mdpi.com/2072-4292/13/15/3053)"
 
 - [03 Augest 2021] Release the code of MFPNet model.
 
@@ -10,20 +10,10 @@ Remote sensing change detection (RSCD) is an important yet challenging task in E
 
 ## Content
 ### Architecture
-<img src="https://github.com/wzjialang/MCLDNN/blob/master/figure/MFPNet.png" height="300"/>
+<img src="https://github.com/wzjialang/MFPNet/blob/main/figure/MFPNet.png" height="500"/>
 
-Fig.1 Overall architecture of the proposed multidirectional fusion and perception network (MFPNet). Note that the process with the dashed line only participates in model training.
-
-<img src="https://github.com/wzjialang/MCLDNN/blob/master/figure/MFP.png" height="100"/>
-
-Fig. 2 Illustration of the multidirectional fusion pathway (MFP).
-
-<img src="https://github.com/wzjialang/MCLDNN/blob/master/figure/AWF.png" height="100"/>
-
-Fig. 3 Illustration of the adaptive weighted fusion (AWF) strategy. (a) Example of a fusion node with three inputs. (b) Detailed process of obtaining a weight vector $w_i$.
-
-<img src="https://github.com/wzjialang/MCLDNN/blob/master/figure/PSM.png" height="100"/>
-Fig. 4 Detailed architecture of the perceptual similarity module (PSM).
+Fig.1 Overall architecture of the proposed multidirectional fusion and perception network (MFPNet). <br>
+Note that the process with the dashed line only participates in model training.
 
 ### Datasets
 The available datasets can be downloaded from the table below:
@@ -67,3 +57,19 @@ The available datasets can be downloaded from the table below:
 
 ## Acknowledgement
 Thanks [zylo117](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) for his great work on 'Conv2dStaticSamePadding' and 'MaxPool2dStaticSamePadding'!
+
+## Cite
+```
+@Article{rs13153053,
+AUTHOR = {Xu, Jialang and Luo, Chunbo and Chen, Xinyue and Wei, Shicai and Luo, Yang},
+TITLE = {Remote Sensing Change Detection Based on Multidirectional Adaptive Feature Fusion and Perceptual Similarity},
+JOURNAL = {Remote Sensing},
+VOLUME = {13},
+YEAR = {2021},
+NUMBER = {15},
+ARTICLE-NUMBER = {3053},
+URL = {https://www.mdpi.com/2072-4292/13/15/3053},
+ISSN = {2072-4292},
+DOI = {10.3390/rs13153053}
+}
+```
