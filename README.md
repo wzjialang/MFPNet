@@ -3,12 +3,28 @@ by Jialang Xu (e-mail: 504006937@qq.com), Chunbo Luo, Xinyue Chen, Shicai Wei, Y
 
 PyTorch implementation for "Remote Sensing Change Detection Based on Multidirectional Adaptive Feature Fusion and Perceptual Similarity"
 
-- I will release the code and more details when the paper is published.
+- [03 Augest 2021] Release the code of MFPNet model.
 
 ## Introduction
 Remote sensing change detection (RSCD) is an important yet challenging task in Earth observation. The booming development of convolutional neural networks (CNNs) in computer vision raises new possibilities for RSCD, and many recent RSCD methods have introduced CNNs to achieve promising improvements in performance. This paper proposes a novel multidirectional fusion and perception network for change detection in bi-temporal very-high-resolution remote sensing images. First, we propose an elaborate feature fusion module consisting of a multidirectional fusion pathway (MFP) and an adaptive weighted fusion (AWF) strategy  for RSCD to boost the way that information propagates in the network. The MFP enhances the flexibility and diversity of information paths by creating extra top-down and shortcut-connection paths. The AWF strategy conducts weight recalibration for every fusion node to highlight salient feature maps and overcome semantic gaps between different features. Second, a novel perceptual similarity module is designed to introduce perceptual loss into the RSCD task, which adds the perceptual information, such as structure and semantic, for high-quality change maps generation. Extensive experiments on four challenging benchmark datasets demonstrate the superiority of the proposed network comparing with eight state-of-the-art methods in terms of F1, Kappa, and visual qualities.
 
 ## Content
+### Architecture
+<img src="https://github.com/wzjialang/MCLDNN/blob/master/figure/MFPNet.png" height="300"/>
+
+Fig.1 Overall architecture of the proposed multidirectional fusion and perception network (MFPNet). Note that the process with the dashed line only participates in model training.
+
+<img src="https://github.com/wzjialang/MCLDNN/blob/master/figure/MFP.png" height="100"/>
+
+Fig. 2 Illustration of the multidirectional fusion pathway (MFP).
+
+<img src="https://github.com/wzjialang/MCLDNN/blob/master/figure/AWF.png" height="100"/>
+
+Fig. 3 Illustration of the adaptive weighted fusion (AWF) strategy. (a) Example of a fusion node with three inputs. (b) Detailed process of obtaining a weight vector $w_i$.
+
+<img src="https://github.com/wzjialang/MCLDNN/blob/master/figure/PSM.png" height="100"/>
+Fig. 4 Detailed architecture of the perceptual similarity module (PSM).
+
 ### Datasets
 The available datasets can be downloaded from the table below:
 <table>
