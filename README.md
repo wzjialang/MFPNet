@@ -48,3 +48,6 @@ The available datasets can be downloaded from the table below:
 <span id="Ref-3">[3] Peng, D.; Bruzzone, L.; Zhang, Y.; Guan, H.; Ding, H.; Huang, X. SemiCDNet: A Semisupervised Convolutional Neural Network for Change Detection in High Resolution Remote-Sensing Images. IEEE Trans. Geosci. Remote Sens. 2020, pp. 1–16. </span>
 
 <span id="Ref-4">[4] Zhang, C.; Yue, P.; Tapete, D.; Jiang, L.; Shangguan, B.; Huang, L.; Liu, G. A deeply supervised image fusion network for change detection in high resolution bi-temporal remote sensing images. ISPRS-J. Photogramm. Remote Sens. 2020, 166, 183–200. </span>
+
+## Acknowledgement
+Thanks [zylo117](https://github.com/zylo117/Yet-Another-EfficientDet-Pytorch) for his great work on 'Conv2dStaticSamePadding' and 'MaxPool2dStaticSamePadding'!
