@@ -134,27 +134,6 @@ class SEResNet(nn.Module):
         self.layer4 = self._make_layer(block, 512, layers[3], stride=strides[3], dilation=dilations[3])
         self.inplanes = 1024
 
-        #self.avgpool = nn.AvgPool2d(7, stride=1)
-        #self.fc = nn.Linear(512 * block.expansion, 1000)
-        
-        # for m in self.modules():
-        #     if isinstance(m, nn.Conv2d):#只要是卷积都操作， 都对weight和bias进行kaiming初始化
-        #         nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
-        #     elif isinstance(m, nn.BatchNorm2d):#bn层都权重初始化为1， bias=0
-        #         nn.init.constant_(m.weight, 1)
-        #         nn.init.constant_(m.bias, 0)
-        # '''
-        # 根据以下论文， 在每个block最后的一个BN进行权重0值初始化
-        # 有助于提升精度
-        # https://arxiv.org/abs/1706.02677
-        # '''
-        # if zero_init_residual:
-        #     for m in self.modules():
-        #         if isinstance(m, Bottleneck): #如果是实例bottleneck的话
-        #             nn.init.constant_(m.bn3.weight, 0)
-        #         elif isinstance(m, Bottleneck_mdcn):
-        #             nn.init.constant_(m.bn3.weight, 0)
-
     def _make_layer(self, block, planes, blocks, stride=1, dilation=1):
         downsample = None
         if stride != 1 or self.inplanes != planes * block.expansion:
