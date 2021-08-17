@@ -350,7 +350,7 @@ class MFPNET(nn.Module):
 
         return x1, x2, x3, x4, x5
 
-    def forward(self, x):
+    def forward(self, x_prev, x_now):
         p1_t1, p2_t1, p3_t1, p4_t1, p5_t1 = self.encoder(x_prev)
         p1_t2, p2_t2, p3_t2, p4_t2, p5_t2 = self.encoder(x_now)
         features_t1_t2 = (p1_t1, p2_t1, p3_t1, p4_t1, p5_t1, p1_t2, p2_t2, p3_t2, p4_t2, p5_t2)
