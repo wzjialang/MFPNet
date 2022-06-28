@@ -94,7 +94,7 @@ python train.py
 ```
 
 ## Model Weights
-Model weights for Google dataset are available via [Google Drive]() or [Baidu Drive](https://pan.baidu.com/s/141aQDQ_lMEi83O2t6AcLqg?pwd=1234).
+Model weights for Google dataset are available via [Google Drive](https://drive.google.com/drive/folders/1-2njQ7Z3IIrjv6YGXoMD2CBZbc1nQuRu?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/141aQDQ_lMEi83O2t6AcLqg?pwd=1234).
 
 ## Reference
 Appreciate the work from the following repositories:
