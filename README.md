@@ -22,30 +22,25 @@ The processed and original datasets can be downloaded from the table below, we r
 <table>
 	<tr>
 	    <th>Datasets</th>
-	    <th>Download Links</th>
+	    <th>Processed Links</th>
+	    <th>Original Links</th>	
 	</tr>
     <tr>
 	    <td>Season-varying Dataset [<a href="https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2/565/2018/">1</a>]</td>
-	    <td>[<a href="https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9" target="_blank">Processed (Google Drive)</a>]
-	    [<a href="https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9" target="_blank">Processed (Baidu Drive)</a>]
-        [<a href="https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9" target="_blank">Original</a>] </td>
+	    <td rowspan="4">[<a href="" target="_blank">Google Drive</a>]
+	    [<a href="https://pan.baidu.com/s/1kf5QmTY8Usnknkao1JcAkw?pwd=1234" target="_blank">Baidu Drive</a>] 
+        <td>[<a href="https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9" target="_blank">Original</a>] </td>
 	</tr>
 	    <td>LEVIR-CD Dataset [<a href="https://www.mdpi.com/2072-4292/12/10/1662">2</a>]</td>
-	    <td>[<a href="https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9" target="_blank">Processed (Google Drive)</a>]
-	    [<a href="https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9" target="_blank">Processed (Baidu Drive)</a>]
-        [<a href="https://justchenhao.github.io/LEVIR/" target="_blank">Original</a>]</td>
+	    <td>[<a href="https://justchenhao.github.io/LEVIR/" target="_blank">Original</a>]</td>
     </tr>
 	</tr>
 	    <td>Google Dataset [<a href="https://ieeexplore.ieee.org/document/9161009/">3</a>]</td>
-	    <td>[<a href="https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9" target="_blank">Processed (Google Drive)</a>]
-	    [<a href="https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9" target="_blank">Processed (Baidu Drive)</a>]
-        [<a href="https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images/tree/master/dataset" target="_blank">Original</a>]</td>
+	    <td>[<a href="https://github.com/GeoZcx/A-deeply-supervised-image-fusion-network-for-change-detection-in-remote-sensing-images/tree/master/dataset" target="_blank">Original</a>]</td>
     </tr>
 	</tr>
 	    <td>Zhange Dataset [<a href="https://www.sciencedirect.com/science/article/abs/pii/S0924271620301532">4</a>]</td>
-	    <td>[<a href="https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9" target="_blank">Processed (Google Drive)</a>]
-	    [<a href="https://drive.google.com/file/d/1GX656JqqOyBi_Ef0w65kDGVto-nHrNs9" target="_blank">Processed (Baidu Drive)</a>]
-        [<a href="https://github.com/daifeng2016/Change-Detection-Dataset-for-High-Resolution-Satellite-Imagery" target="_blank">Original</a>]</td>
+	    <td>[<a href="https://github.com/daifeng2016/Change-Detection-Dataset-for-High-Resolution-Satellite-Imagery" target="_blank">Original</a>]</td>
     </tr>
 </table> 
 
@@ -86,10 +81,15 @@ The processed and original datasets can be downloaded from the table below, we r
 - Change the 'dataset_dir' and 'weight_dir' in 'metadata.json' to your own path.
 ```
 
-4. Train/evaluate the MFPNet:
+4. Train the MFPNet:
 ```
 python train.py
-python eval.py
+```
+
+5. Evaluate the MFPNet:
+```
+- Change the 'weight_path' in 'eval.py' to your model weight path.
+- python eval.py
 ```
 
 ## Reference
