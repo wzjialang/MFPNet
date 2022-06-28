@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import os
 
-from seresnet50 import se_resnet50
+from .seresnet50 import se_resnet50
 
 class BasicConvBlock(nn.Module):
     def __init__(self, in_channels, out_channels=None):
@@ -357,9 +357,8 @@ class MFPNET(nn.Module):
 
         x_fuse=self.maffm(features_t1_t2)
         dis_map=self.dec(x_fuse)
-        result = torch.argmax(dis_map, dim = 1, keepdim = True)
 
-        return dis_map, result
+        return dis_map
 
 if __name__ == "__main__":
     model = MFPNET(classes = 2)
