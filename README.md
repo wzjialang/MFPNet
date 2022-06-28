@@ -93,7 +93,7 @@ python train.py
 - python eval.py
 ```
 
-## Model weights
+## Model Weights
 Model weights for Google dataset are available via [Google Drive]() or [Baidu Drive](https://pan.baidu.com/s/141aQDQ_lMEi83O2t6AcLqg?pwd=1234).
 
 ## Reference
