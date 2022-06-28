@@ -87,11 +87,14 @@ python train.py
 ```
 
 5. Evaluate the MFPNet:
-* Download model weights via [Google Drive]() or [Baidu Drive](https://pan.baidu.com/s/141aQDQ_lMEi83O2t6AcLqg?pwd=1234).
-* Change the 'weight_path' in 'eval.py' to your model weight path.
 ```
-python eval.py
+- Download model weights (optional).
+- Change the 'weight_path' in 'eval.py' to your model weight path.
+- python eval.py
 ```
+
+## Model weights
+Model weights for Google dataset are available via [Google Drive]() or [Baidu Drive](https://pan.baidu.com/s/141aQDQ_lMEi83O2t6AcLqg?pwd=1234).
 
 ## Reference
 Appreciate the work from the following repositories:
