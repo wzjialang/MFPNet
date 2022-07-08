@@ -5,6 +5,7 @@ PyTorch implementation for "[Remote Sensing Change Detection Based on Multidirec
 
 - [03 August 2021] Release the code of MFPNet model.
 - [28 June 2022] Release the processed datasets, training/evaluation codes and model weights.
+- [08 JUly 2022] Release model weights for Season-varying/LEVIR-CD/Google datasets.
 
 ## Introduction
 Remote sensing change detection (RSCD) is an important yet challenging task in Earth observation. The booming development of convolutional neural networks (CNNs) in computer vision raises new possibilities for RSCD, and many recent RSCD methods have introduced CNNs to achieve promising improvements in performance. This paper proposes a novel multidirectional fusion and perception network for change detection in bi-temporal very-high-resolution remote sensing images. First, we propose an elaborate feature fusion module consisting of a multidirectional fusion pathway (MFP) and an adaptive weighted fusion (AWF) strategy  for RSCD to boost the way that information propagates in the network. The MFP enhances the flexibility and diversity of information paths by creating extra top-down and shortcut-connection paths. The AWF strategy conducts weight recalibration for every fusion node to highlight salient feature maps and overcome semantic gaps between different features. Second, a novel perceptual similarity module is designed to introduce perceptual loss into the RSCD task, which adds the perceptual information, such as structure and semantic, for high-quality change maps generation. Extensive experiments on four challenging benchmark datasets demonstrate the superiority of the proposed network comparing with eight state-of-the-art methods in terms of F1, Kappa, and visual qualities.
@@ -94,7 +95,30 @@ python train.py
 ```
 
 ## Model Weights
-Model weights for Google dataset are available via [Google Drive](https://drive.google.com/drive/folders/1-2njQ7Z3IIrjv6YGXoMD2CBZbc1nQuRu?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/141aQDQ_lMEi83O2t6AcLqg?pwd=1234).
+Model weights for Season-varying/LEVIR-CD/Google datasets are available via [Google Drive](https://drive.google.com/drive/folders/1-2njQ7Z3IIrjv6YGXoMD2CBZbc1nQuRu?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/141aQDQ_lMEi83O2t6AcLqg?pwd=1234). Note that the training/dataloader codes are rewritten for brevity and clarity so the performance is a little different from the paper.
+
+<table>
+	<tr>
+	    <th>Datasets</th>
+	    <th>F1 (%)</th>
+	    <th>Kappa (%)</th>	
+	</tr>
+    <tr>
+	    <td>Season-varying</td>
+	    <td>97.964</td>
+	    <td>97.691</td>
+	</tr>
+	    <td>LEVIR-CD</td>
+	    <td>91.568</td>
+	    <td>91.120</td>
+    </tr>
+	</tr>
+	    <td>Google</td>
+	    <td>88.058</td>
+	    <td>84.140</td>
+    </tr>
+</table> 
+
 
 ## Reference
 Appreciate the work from the following repositories:
