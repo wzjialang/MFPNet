@@ -4,7 +4,7 @@
 PyTorch implementation for "[Remote Sensing Change Detection Based on Multidirectional Adaptive Feature Fusion and Perceptual Similarity](https://www.mdpi.com/2072-4292/13/15/3053)"
 
 - [03 August 2021] Release the code of MFPNet model.
-- [28 June 2022] Release the processed datasets, training/evaluation codes and model weights.
+- [28 June 2022] Release the processed datasets, training/evaluation codes.
 - [08 JUly 2022] Release model weights for Season-varying/LEVIR-CD/Google datasets.
 
 ## Introduction
@@ -18,7 +18,7 @@ Fig.1 Overall architecture of the proposed multidirectional fusion and perceptio
 Note that the process with the dashed line only participates in model training.
 
 ### Datasets
-The processed and original datasets can be downloaded from the table below, we recommended downloading the processed one directly to get a quick start on our code:
+The processed and original datasets can be downloaded from the table below, we recommended downloading the processed one directly to get a quick start on our codes:
 
 <table>
 	<tr>
