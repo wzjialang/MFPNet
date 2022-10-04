@@ -95,7 +95,7 @@ python train.py
 ```
 
 ## Model Weights
-Model weights for Season-varying/LEVIR-CD/Google datasets are available via [Google Drive](https://drive.google.com/drive/folders/1-2njQ7Z3IIrjv6YGXoMD2CBZbc1nQuRu?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/141aQDQ_lMEi83O2t6AcLqg?pwd=1234). Note that the training/dataloader codes are rewritten for brevity and clarity so the performance is a little different from the paper.
+Model weights for Season-varying/LEVIR-CD/Google datasets are available via [Google Drive](https://drive.google.com/drive/folders/1-2njQ7Z3IIrjv6YGXoMD2CBZbc1nQuRu?usp=sharing) or [Baidu Drive](https://pan.baidu.com/s/141aQDQ_lMEi83O2t6AcLqg?pwd=1234). Note that the training/dataloader codes are rewritten and improved so the performance is a little different from the paper.
 
 <table>
 	<tr>
